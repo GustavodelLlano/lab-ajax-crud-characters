@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
 body {
   font-family: 'Roboto';
   color: white;

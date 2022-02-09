@@ -25,20 +25,22 @@
       </div>
       <div class="operation">
         <label for="character-id">Search by ID: </label>
-        <input type="text" name="character-id">
+        <input class="searchId" type="text" name="character-id">
         <button id="fetch-one">Fetch one</button>
       </div>
       <div class="operation delete">
-        <label for="character-id-delete">Delete by ID: </label>
-        <input type="text" name="character-id-delete">
+        <label  for="character-id-delete">Delete by ID: </label>
+        <input class="deleteId" type="text" name="character-id-delete">
         <button id="delete-one">Delete one</button>
       </div>
 
     </section>
   </section>
   <section class="container">
+
     <section class="form-container">
       <h2>New Character</h2>
+
       <form id="new-character-form" class="character-form">
         <div class="field">
           <label for="name">Name: </label>
@@ -56,15 +58,18 @@
           <label for="cartoon">Is a Cartoon: </label>
           <input name="cartoon" type="checkbox">
         </div>
-        <button id="send-data">Create</button>
+        <button id="send-create">Create</button>
       </form>
+
     </section>
+
     <section class="form-container">
       <h2>Edit Character</h2>
+
       <form id="edit-character-form" class="character-form">
         <div class="field">
           <label for="id">ID: </label>
-          <input type="text" name="chr-id">
+          <input class="editId" type="text" name="chr-id">
         </div>
         <div class="field">
           <label for="name">Name: </label>
@@ -82,8 +87,9 @@
           <label for="cartoon">Is a Cartoon: </label>
           <input name="cartoon" type="checkbox">
         </div>
-        <button id="send-data">Update</button>
+        <button id="send-upadte">Update</button>
       </form>
+
     </section>
   </section>
   <script type="text/javascript" src="./public/javascript/APIHandler.js"></script>
